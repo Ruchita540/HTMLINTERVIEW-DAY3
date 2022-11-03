@@ -1,0 +1,87 @@
+<!-- How will we add Image? -->
+<!-- Absolute Path -->
+<!-- <img src="https://image/copy" alt="Error!"> -->
+<!-- Relative Path -->
+<!-- <img src="./assests/image/alok.png" alt="Error!"> -->
+
+<!-- Create a form contain input feilds like name, age, email and contact? -->
+<form action="">
+    <label for="fname">Name:</label>
+    <input type="text" name="fname" value="" placeholder="Please Enter Name" id="fname" required>
+    <br><br>
+    <label for="age">Age:</label>
+    <input type="number" name="age" value="" id="age" placeholder="enter your age" required>
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter youe Email" required>
+    <br><br>
+    <label for="contact">Contact :</label>
+    <input type="tel" name="contact" id="contact" value="" placeholder="enter your contact" required>
+    <br><br>
+    <input type="submit" value="Submit">
+
+</form>
+
+
+
+<!-- Table -->
+
+<table border="1" >
+    <tr>
+        <th>Name</th>
+        <th colspan="2">Designation</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Rohan</td>
+        <td>Full Stack</td>
+        <td>Frontened</td>
+    </tr>
+    <tr>
+        <td>Abhimanyu</td>
+        <td>Frontened</td>
+        <td>Backned</td>
+    </tr>
+</table>
+
+<!-- Create radio button (MERN,MEAN:course)and checkbox(HTML,CSS,React,Node:technology)and explain the difference between these two -->
+<!-- Radio button: It is generally used in HTML forms. HTML forms are required when you need to collect some data from the site visitors. A radio button is used when you want to select only one option out of several available options. -->
+
+        <form>
+            Do you agree this statement?
+            <br>
+            <input type="radio"
+                name="agree"
+                value="yes">MERN
+            <br>
+            <input type="radio"
+                name="agree"
+                value="no">MEAN
+            <br>
+            <input type="Submit">
+        </form>
+    
+    
+    <!-- Checkbox: Checkboxes are also mostly used in HTML forms. A checkbox allows you to choose one or many options to be selected from a list of options. -->
+    
+	<form>
+		Choose languages you know:
+		<br>
+		<input type="checkbox"
+			name="HTML"
+			value="yes">HTML
+		<br>
+		<input type="checkbox"
+			name="CSS"
+			value="yes">CSS
+		<br>
+		<input type="checkbox"
+			name="React"
+			value="yes">React
+		<br>
+		<input type="checkbox"
+			name="Node"
+			value="yes">Node
+		<br>
+		<input type="Submit">
+	</form>
+
